@@ -1,0 +1,65 @@
+.whole{
+  background-image: url(../../assets/imgs/backgrounds/liquid-cheese.svg); background-position: center; background-repeat: no-repeat; background-size: cover;
+}
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .profile-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .profile-details {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .profile-images {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .profile-images img {
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+  }
+  
+  .profile-bio {
+    text-align: justify;
+    font-size: 1.5em;
+  }
+
+  .profile-bio h3,h5{
+    font-weight: bold;
+  }
+
+  
+  @media screen and (min-width: 768px) {
+    .profile-container {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .profile-details {
+      margin: 0 20px;
+    }
+  
+    .profile-images {
+      flex-wrap: wrap;
+      margin: 0 20px;
+    }
+  
+    .profile-images img {
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+    }
+  }
+  

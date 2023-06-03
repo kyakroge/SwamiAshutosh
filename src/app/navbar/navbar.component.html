@@ -1,0 +1,63 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a routerLink="/kailash-math" routerLinkActive="activebutton" ariaCurrentWhenActive="page" class="nav-link " aria-current="page">कैलाश मठ</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/math-sampraday" routerLinkActive="activebutton" ariaCurrentWhenActive="page" class="nav-link">मठ संप्रदाय</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/jagadguru-shankaracharya" routerLinkActive="activebutton" ariaCurrentWhenActive="page" class="nav-link">आदि शंकराचार्य</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/math-karyakshetra" routerLinkActive="activebutton" ariaCurrentWhenActive="page" class="nav-link">मठ के कार्यक्षेत्र</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/dharmik-yojna" routerLinkActive="activebutton" ariaCurrentWhenActive="page" class="nav-link">धार्मिक योजना</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/media-coverage" routerLinkActive="activebutton" ariaCurrentWhenActive="page" class="nav-link">मीडिया कवरेज</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              सुविधा
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">सुविधा 1</a></li>
+              <li><a class="dropdown-item" href="#">सुविधा 2</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">अन्य सुविधायें</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ऑनलाइन
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">पूजा बुकिंग</a></li>
+              <li><a class="dropdown-item" href="#">दान</a></li>
+              <li><a class="dropdown-item" href="#">पुस्तकालय</a></li>
+              <li><a class="dropdown-item" href="#">पत्रिका सदस्यता</a></li>
+              <li><a class="dropdown-item" href="#">आवास बुकिंग</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">दान</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="खोजने के लिए लिखें" aria-label="Search">
+          <button class="btn btn-outline-secondary text-danger-emphasis" type="submit">खोजें</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <router-outlet></router-outlet>

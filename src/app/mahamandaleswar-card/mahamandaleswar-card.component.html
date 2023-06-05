@@ -1,0 +1,39 @@
+<a href="" style="text-decoration: none;">
+
+    <div class="card text-center border-0 mb-4">
+        <div class="card-cup bg-primary"></div>
+        <div class="card-body proavatar">
+            <div class="card-avatar avatar-border mt-n5">
+                <!-- <svg>
+                    <rect width="100%" height="100%" fill="#495057"></rect>
+                </svg> -->
+            </div>
+            <h5 class="card-title text-primary mb-1">{{receivedData['name']}}</h5>
+            <div class="text-muted">{{receivedData['dob']}}</div>
+            
+            <div>
+                
+                <p class="mt-4 mb-3">Minim dolor in amet nulla laboris enim dolore consequat plorem40
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis accusantium libero omnis dolor, vel
+                    impedit nulla, esse eos hic eum aperiam! Ab perspiciatis illum, quia totam iure molestias eaque facilis!
+                    roident fugiat culpa eiusmod proiden</p>
+                </div>
+                <div *ngFor="let map of mmDetails">
+                    <h2>Map</h2>
+                    <ul>
+                        <li *ngFor="let entry of map.entries()">
+                            <strong>Key:</strong> {{ entry[0] }}
+                            <ul>
+                                <li *ngFor="let name of entry[1]">{{ name }}</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-footer card-footer two">
+                <a class="card-link text-primary read-more two" href="javascript://">Read</a>
+            </div>
+            
+            
+        </div>
+    </a>

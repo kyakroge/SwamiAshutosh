@@ -18,6 +18,7 @@ import { MediaCoverageComponent } from './media-coverage/media-coverage.componen
 import { KailashMathComponent } from './kailash-math/kailash-math.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MahamandaleswarCardComponent } from './mahamandaleswar-card/mahamandaleswar-card.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     DharmikYojnaComponent,
     MediaCoverageComponent,
     KailashMathComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    MahamandaleswarCardComponent
   ],
   imports: [
     BrowserModule,

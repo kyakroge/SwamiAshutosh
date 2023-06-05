@@ -1,5 +1,5 @@
 .whole{
-  background-image: url(../../assets/imgs/backgrounds/liquid-cheese.svg); background-position: center; background-repeat: no-repeat; background-size: cover;
+  // background-image: url(../../assets/imgs/backgrounds/liquid-cheese.svg); background-position: center; background-repeat: no-repeat; background-size: cover;
 }
 
 * {
@@ -55,50 +55,6 @@
     background-color: rgb(255, 255, 186);
 }
 
-aside {
-    background-color: rgb(255, 255, 186);
-}
-
-.list-group-item:hover {
-    border: 1px solid black;
-}
-
-.list-group-item a {
-    font-weight: bold;
-    padding: 5px;
-    color: white;
-}
-
-.list-group-item a:hover {
-    color: black;
-}
-
-.accordion-header,
-.accordion-button {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 215, 139);
-}
-
-.accordion-button:hover{
-    background-color: brown;
-    color: white;
-}  
-
-.accordion-button:focus {
-    background-color: crimson;
-    color: white;
-}
-
-.accordion-item {
-    background-color: white;
-    // border: 1px solid rgb(2, 2, 2);
-}
-
-aside>li:hover,
-.dropdown-menu {
-    color: white;
-    background-color: red;
-}
 
 .truncate {
   overflow: hidden;
@@ -349,4 +305,49 @@ aside>li:hover,
       display: none;
       visibility: hidden;
     }
+  }
+
+  .grid-container {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    padding: 50px;
+  }
+
+  .grid-item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: #e2ff4f25;
+  }
+
+  .grid-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .read-more {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .background-svg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+  }
+
+  .om-symbol {
+    width: 150px;
+    height: 150px;
+    fill: #000000;
   }

@@ -8,9 +8,6 @@
     display: table;
 }
 
-//   .caption-shadow{
-//     text-shadow: 1px 1px 1px black, 0 0 1em red, 0 0 0.2em black;
-// }
 .carousel img {
     object-fit: contain;
 }
@@ -55,46 +52,6 @@ aside {
     background-color: rgb(255, 255, 186);
 }
 
-.list-group-item:hover {
-    border: 1px solid black;
-}
-
-.list-group-item a {
-    font-weight: bold;
-    padding: 5px;
-    color: white;
-}
-
-.list-group-item a:hover {
-    color: black;
-}
-
-.accordion-header,
-.accordion-button {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 215, 139);
-}
-
-.accordion-button:hover{
-    background-color: brown;
-    color: white;
-}  
-
-.accordion-button:focus {
-    background-color: crimson;
-    color: white;
-}
-
-.accordion-item {
-    background-color: white;
-    // border: 1px solid rgb(2, 2, 2);
-}
-
-aside>li:hover,
-.dropdown-menu {
-    color: white;
-    background-color: red;
-}
 
 .truncate {
   overflow: hidden;
@@ -215,3 +172,29 @@ aside>li:hover,
     padding: 20px;
     color: wheat;
   }
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+  // border: 1px solid red;
+	// background-color:rgb(248, 255, 49);
+	// color:#FFF;
+	// border-radius:50px;
+	text-align:center;
+	// box-shadow: 0px 0px 13px #ff0000, 0px 0px 5px #000;
+}
+
+fa-icon {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to top, #e5ff00 0%, #ffffff 90%);
+  border-radius: 100%;
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}

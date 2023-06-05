@@ -17,6 +17,7 @@ import { DharmikYojnaComponent } from './dharmik-yojna/dharmik-yojna.component';
 import { MediaCoverageComponent } from './media-coverage/media-coverage.component';
 import { KailashMathComponent } from './kailash-math/kailash-math.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSlideToggleModule,
-    FormsModule
+    FormsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -198,3 +198,27 @@ fa-icon {
   padding: 20px;
   box-sizing: border-box;
 }
+
+.mat-slide-toggle{
+  transform: scale(2);
+}
+
+.toggle-bhakti{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+@media (max-width:767px) {
+  .toggle-bhakti{
+    border: 1ps solid blue;
+    padding: 0;
+  }
+    .toggle-bhakti span{
+      display: none;
+    }
+  }
+
+  .mat-mdc-slide-toggle{
+    // background: #cf3d3d;
+}

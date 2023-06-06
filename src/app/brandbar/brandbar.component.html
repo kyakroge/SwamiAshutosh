@@ -1,22 +1,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <div class="bg-warning fixed-top row">
-    <div class="col"></div>
+    <!-- <div class="col"></div> -->
     <div class="d-flex col justify-content-center">
         <img class="" height="80" src="../../assets/svg/header/logo-name.svg" alt="" srcset="">
-    </div>
-    <div class="toggle-bhakti d-flex col justify-content-end">
-        <div class="row">
-            <!-- <span class="col m-0 p-0">Normal</span> -->
-            <mat-slide-toggle [(ngModel)]="isDisabled" #ctrl="ngModel" (toggleChange)="updateBhakt()" color='accent'
-                [aria-label]="isSubscribedToEmailsMessage" class="col m-0 p-0"></mat-slide-toggle>
-            <!-- <span class="col m-0 p-0">{{isBhakt}} </span> -->
-            <span class="col" *ngIf="isBhakti; else falseCondition">
-                <h5><img height="50px" src="../../assets/audio/clips/music-spotify.gif" alt="" srcset=""></h5>
-                <audio src="../../assets/audio/clips/Snasar Ke Logon Se Asha Na Kiya Karna Bhajan By - Swami Shri Ashutoshanand Giri Ji Maharaj [TubeRipper.com].mp3" id="my_audio" loop="loop" autoplay="autoplay"></audio>
-            </span>
-            <ng-template #falseCondition>
-                <h5 class="col">No Bhakti</h5>
-            </ng-template>
-        </div>
     </div>
 </div>

@@ -1,4 +1,4 @@
-<a href="" style="text-decoration: none;">
+<div class="p-3" href="" style="text-decoration: none;">
 
     <div class="card text-center border-0 mb-4">
         <div class="card-cup bg-primary"></div>
@@ -22,7 +22,7 @@
                     <h2>Map</h2>
                     <ul>
                         <li *ngFor="let entry of map.entries()">
-                            <strong>Key:</strong> {{ entry[0] }}
+                            <!-- <strong>Key:</strong> {{ entry[0] }} -->
                             <ul>
                                 <li *ngFor="let name of entry[1]">{{ name }}</li>
                             </ul>
@@ -36,4 +36,4 @@
             
             
         </div>
-    </a>
+</div>

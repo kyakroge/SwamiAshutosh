@@ -22,7 +22,7 @@ body .footer {
 .card {
     position: relative;
     flex-direction: column;
-    min-width: 0;
+    max-width: 100vw;
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;

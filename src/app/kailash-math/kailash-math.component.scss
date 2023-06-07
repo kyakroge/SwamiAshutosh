@@ -2,10 +2,6 @@
   position: fixed;
   top: 0;
 }
-.card{
-  // margin: 15px;
-}
-
 .card::before {
   content: ' ';
   display: block;

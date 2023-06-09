@@ -19,6 +19,7 @@ import { KailashMathComponent } from './kailash-math/kailash-math.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MahamandaleswarCardComponent } from './mahamandaleswar-card/mahamandaleswar-card.component';
+import { MultiItemPerSlideComponent } from './multi-item-per-slide/multi-item-per-slide.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { MahamandaleswarCardComponent } from './mahamandaleswar-card/mahamandale
     MediaCoverageComponent,
     KailashMathComponent,
     PageNotFoundComponent,
-    MahamandaleswarCardComponent
+    MahamandaleswarCardComponent,
+    MultiItemPerSlideComponent
   ],
   imports: [
     BrowserModule,

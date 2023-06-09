@@ -2,22 +2,76 @@
   position: fixed;
   top: 0;
 }
-.card::before {
-  content: ' ';
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
+
+.carouselExampleIndicators{
   width: 100%;
   height: 100%;
-  opacity: 0.1;
-  background-image: url(../../assets/svg/swastik.png);
-  background-attachment: fixed;
-  background-size: 30px;
-  background-repeat: repeat;
-  // background-position: 50% 0;
-  // background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  // background: #0057e3;
+}
 
+
+.overlay {
+  z-index: 9;
+  // margin: 30px;
+  background: #009938;
+}
+
+.breaking-news {
+  position: relative;
+  background-color: rgb(255, 245, 230);
+  color: rgb(93, 12, 0);
+  top: 0;
+  left: 0;
+  overflow: hidden; /* Hides the overflowing text */
+  white-space: nowrap; /* Prevents the text from wrapping */
+}
+
+.breaking-news p {
+  display: inline-block;
+  font-size: large;
+  // padding-top: 10px; /* Enables horizontal scrolling */
+  margin-right: 100%; /* Initial position outside the container */
+  animation: marquee 40s linear infinite; /* Animation properties */
+}
+
+.breaking-news a{
+  text-decoration:none;
+  color: rgb(93, 12, 0);
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+@keyframes marquee {
+  0% { margin-left: 100%; } /* Starts from the right */
+  100% { margin-left: -100%; } /* Scrolls to the left */
+}
+
+@keyframes neon {
+  0% {
+    color: #15ff00; /* Initial color */
+    text-shadow: 1px 1px 5px #ffffff;
+  }
+  50% {
+    color: #5f72ff; /* Middle color */
+    text-shadow: 1px 1px 5px #ffffff;
+  }
+  
+  70% {
+    color: #5f72ff; /* Middle color */
+    text-shadow: 1px 1px 5px #ffffff;
+  }
+
+  100% {
+    color: #15ff00; /* Final color */
+    text-shadow: 1px 1px 5px #ffffff;
+  }
+}
+
+.neon-text {
+  animation: neon 2s linear infinite;
 }
 
 
@@ -31,9 +85,6 @@
   display: table;
 }
 
-//   .caption-shadow{
-//     text-shadow: 1px 1px 1px black, 0 0 1em red, 0 0 0.2em black;
-// }
 .carousel img {
   object-fit: contain;
 }
@@ -43,20 +94,16 @@
   background-color: transparent;
 }
 
-.carousel-caption {
-  padding-bottom: 40px;
-  background-color: transparent;
-}
-
 .carousel-indicators {
   background-color: transparent;
+  padding-bottom: 25px;
 }
 
 .caption-text {
   background-color: black;
   color: yellow;
   text-shadow: 0 0 1em rgb(255, 255, 255);
-  border: 5px double yellow;
+  border: 1px solid yellow;
   display: inline;
   border-radius: 10px;
   padding: 8px;
@@ -78,14 +125,23 @@
 /* Left column */
 .left-column {   
   float: left;
-  width: 75%;
+  width: 70%;
+}
+
+.left-column .card{
+  background-color: rgb(255, 245, 230);
 }
 
 /* Right column */
 .right-column {
   float: left;
-  width: 25%;
-  padding-left: 20px;
+  width: 30%;
+  // padding-left: 20px;
+}
+
+.right-column .card{
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 
@@ -120,6 +176,13 @@
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .left-column .container-fluid img {
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+  }
+}
 .truncate {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -330,3 +393,90 @@ p {
       }
       .row.content {height:auto;} 
     }
+
+
+
+
+
+
+
+    
+/* Common styles for paragraphs and images */
+p {
+  margin: 0;
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  
+}
+
+.container1 p{
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.container1 img{
+  border-radius: 18px;
+  padding: 10px;
+}
+
+/* Styles for laptop screens */
+@media (min-width: 768px) {
+  .container1 {
+    display: block;
+    flex-wrap: nowrap;
+  }
+
+  .content-1{
+    display: flex;
+  }
+
+  .content-2{
+    display: flex;
+  }
+  
+  .container1 > div {
+    // flex-basis: 50%;
+  }
+  
+  .container > div:nth-child(odd) {
+    // order: 1;
+  }
+  
+  .container1 > div:nth-child(even) {
+    // order: 2;
+  }
+  .container1 p{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+  }
+  
+}
+
+/* Styles for phone screens or smaller */
+@media (max-width: 768px) {
+  .container1 {
+    // display: flex;
+    // flex-direction: column;
+  }
+  .container1 img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .content-1{
+    display: flex;
+    flex-direction:column;
+    font-size: 1.2rem;
+  }
+  .content-2{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+}

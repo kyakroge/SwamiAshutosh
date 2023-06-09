@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 interface MahaMandaleswars {
   name: string;
   dob: string;
+  imgUrl:string;
 }
 
 @Component({
@@ -27,11 +28,14 @@ export class KailashMathComponent {
 
     
     mahaMandaleswars: MahaMandaleswars[]=[
-      {name:'MM1', dob:'87'},
-      {name:'MM2', dob:'77'},
-      {name:'MM3', dob:'84'},
-      {name:'MM4', dob:'83'},
-      {name:'MM5', dob:'97'},
+      {name:'MM1', dob:'87', imgUrl: 'https://ik.imagekit.io/kailash/telegram/tr:w-200,f-jpg,pr-true/IMG-20230517-WA0008.jpg'},
+      {name:'MM2', dob:'77', imgUrl: 'https://ik.imagekit.io/kailash/telegram/tr:w-200,f-jpg,pr-true/IMG-20230517-WA0008.jpg'},
+      {name:'MM3', dob:'84', imgUrl: 'https://ik.imagekit.io/kailash/telegram/tr:w-200,f-jpg,pr-true/IMG-20230517-WA0008.jpg'},
+      {name:'MM4', dob:'83', imgUrl: 'https://ik.imagekit.io/kailash/telegram/tr:w-200,f-jpg,pr-true/IMG-20230517-WA0008.jpg'},
+      {name:'MM5', dob:'97', imgUrl: 'https://ik.imagekit.io/kailash/telegram/tr:w-200,f-jpg,pr-true/IMG-20230517-WA0008.jpg'},
+      {name:'MM6', dob:'97', imgUrl: 'https://ik.imagekit.io/kailash/telegram/tr:w-200,f-jpg,pr-true/IMG-20230517-WA0008.jpg'},
+      {name:'MM7', dob:'97', imgUrl: 'https://ik.imagekit.io/kailash/telegram/tr:w-200,f-jpg,pr-true/IMG-20230517-WA0008.jpg'},
+      {name:'MM8', dob:'97', imgUrl: 'https://ik.imagekit.io/kailash/telegram/tr:w-200,f-jpg,pr-true/IMG-20230517-WA0008.jpg'},
       ];
   
 }

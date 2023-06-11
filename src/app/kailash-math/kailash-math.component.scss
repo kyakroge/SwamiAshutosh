@@ -117,20 +117,78 @@
   border: 5px double rgb(255, 26, 26);
 }
 
-.main {
-  background-color: rgb(255, 255, 186);
-}
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .left-column {   
   float: left;
   width: 70%;
+  background-color: wheat;
 }
 
-.left-column .card{
+.container-loop {
+  overflow: hidden;
+  display: flex;
+  // height: 200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-loop .card{
+  // height: 30%;
+}
+
+
+
+.container-loop>div {
+  max-height: 160px;
+  min-width: 200px;
+  margin-left: 12px;
+  animation: slide 10s linear infinite;
+}
+
+.container-loop img{
+  height: 60%;
+  object-fit: cover;
+}
+
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0); /* The image width */
+  }
+}
+
+
+
+
+.left-column .card-mm{
   background-color: rgb(255, 245, 230);
 }
+
+.vip-people .card{
+  background-color: white;
+  border: 0;
+}
+
+.vip-people .card img{
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  // border-top-right-radius: 50px;
+}
+
+.vip-people .card-body{
+  background-image: linear-gradient(rgb(255, 158, 105),rgba(255, 184, 184, 0.283));
+  // border-bottom-left-radius: 30px;
+}
+.kailash-math-art{
+  background-color: rgb(253, 217, 152);
+}
+
 
 /* Right column */
 .right-column {
@@ -393,13 +451,6 @@ p {
       }
       .row.content {height:auto;} 
     }
-
-
-
-
-
-
-
     
 /* Common styles for paragraphs and images */
 p {
@@ -439,23 +490,23 @@ img {
     display: flex;
   }
   
-  .container1 > div {
-    // flex-basis: 50%;
-  }
+  // .container1 > div {
+  //   // flex-basis: 50%;
+  // }
   
-  .container > div:nth-child(odd) {
-    // order: 1;
-  }
+  // .container > div:nth-child(odd) {
+  //   // order: 1;
+  // }
   
-  .container1 > div:nth-child(even) {
-    // order: 2;
-  }
+  // .container1 > div:nth-child(even) {
+  //   // order: 2;
+  // }
+
   .container1 p{
     padding-left: 50px;
     padding-right: 50px;
     text-align: justify;
   }
-  
 }
 
 /* Styles for phone screens or smaller */

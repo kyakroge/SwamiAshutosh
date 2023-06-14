@@ -30,11 +30,6 @@ body .footer {
     border-radius: 0.8rem;
 }
 
-.card-footer,
-.card-img {
-    border-bottom-right-radius: 0.8rem;
-    border-bottom-left-radius: 0.8rem;
-}
 
 .card-smooth-caption, .card-img-overlay {
     position: absolute;
@@ -43,10 +38,6 @@ body .footer {
     bottom: 0;
 }
 
-.card-smooth-caption {
-    background: linear-gradient(#00000000, #000000fa) #00000000;
-    padding: 2rem 1.5rem 1.5rem;
-}
 
 .card-footer {
     padding: 1.5rem;
@@ -84,12 +75,13 @@ body .footer {
 .text-muted,
 .read-more {
     font-family: Roboto, sans-serif !important;
+    text-decoration: none;
 }
 
-.card-subtitle,
-.card-text:last-child {
-    margin-bottom: 0;
+.read-more:hover{
+    background-color: #ff7402;
 }
+
 
 .card-subtitle {
     font-weight: 400;
@@ -193,16 +185,6 @@ body .footer {
     border: 5px solid #fff;
 }
 
-.footer {
-    padding: 2rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-
 
 
 
@@ -238,7 +220,7 @@ body .footer {
 
 .card-avatar.avatar-border.mt-n5,
 .card-avatar.mr-44 {
-    border: 1.5px solid #15181a;
+    border: 1.5px solid #ff7402;
     background: linear-gradient(#3c4349, #252a2d);
     position: relative;
     // background-image: url(../../assets/imgs/swami-ashu/abhinav-rashtra.jpeg);
@@ -250,9 +232,9 @@ body .footer {
     box-shadow: 0 -0.75px 0.5px 0 #212428 inset, 0 0.5px 0.5px #535d65 inset,
     0 0.5px 0.5px -0.25px rgb(5 6 6 / 50%),
     0 1.75px 1px -0.25px rgb(26 29 31 / 25%);
-    padding: 36px !important;
-    width: 36px;
-    height: 36px;
+    padding: 66px !important;
+    width: 66px;
+    height: 66px;
     margin: auto;
 }
 
@@ -262,9 +244,9 @@ body .footer {
 }
 
 .card-cup.bg-primary {
-    height: 85px;
+    height: 55px;
     width: 100%;
-    background-image: linear-gradient(to right, red , yellow) !important;
+    background-image: linear-gradient(to right,  rgb(255, 204, 0), rgb(255, 255, 255), rgb(255, 204, 0), ) !important;
     background-size: cover;
     background-position: 50% 50%;
 }

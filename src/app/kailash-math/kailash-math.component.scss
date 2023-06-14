@@ -123,7 +123,12 @@
 .left-column {   
   float: left;
   width: 70%;
-  background-color: wheat;
+}
+
+.left-column div div{
+  margin: 0;
+  padding: 0;
+  // background-color: wheat;
 }
 
 .container-loop {
@@ -162,7 +167,32 @@
   }
 }
 
+.art p{
+  font-family: 'Sahitya';
+}
 
+.heading{
+  // width: fit-content;
+  text-align: center;
+  background-color: brown;
+  padding: 10px 30px;
+  color: aliceblue;
+  font-family: 'Kalam', cursive;
+}
+
+.art .sub-heading{
+  width: fit-content;
+  font-family: 'Sahitya', cursive;
+  background-color: indianred;
+  padding: 10px 30px;
+  color: aliceblue;
+  border-top-right-radius: 20px;
+}
+
+.art .title{
+  font-family: 'Sahitya';
+  font-weight: bold;
+}
 
 
 .left-column .card-mm{
@@ -170,7 +200,7 @@
 }
 
 .vip-people .card{
-  background-color: white;
+  // background-color: white;
   border: 0;
 }
 
@@ -178,15 +208,11 @@
   margin: 0;
   padding: 0;
   object-fit: cover;
-  // border-top-right-radius: 50px;
 }
 
 .vip-people .card-body{
-  background-image: linear-gradient(rgb(255, 158, 105),rgba(255, 184, 184, 0.283));
+  background-image: linear-gradient(rgb(255, 201, 5),rgba(255, 184, 184, 0.283));
   // border-bottom-left-radius: 30px;
-}
-.kailash-math-art{
-  background-color: rgb(253, 217, 152);
 }
 
 
@@ -347,14 +373,14 @@
   color: wheat;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 8px 0;
-}
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   margin: 8px 0;
+// }
 
 p {
   margin: 0;
@@ -530,4 +556,13 @@ img {
     flex-direction: column-reverse;
   }
 
+}
+
+.read-more a{
+  margin-bottom: 12px;
+}
+
+
+.art{
+  background-color: wheat;
 }

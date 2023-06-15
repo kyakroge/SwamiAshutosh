@@ -26,6 +26,7 @@ const routes: Routes = [
   { path : 'library', component : LibraryComponent, title: 'दान करें'},
   { path : 'magazine-membership', component : MagazineMembershipComponent, title: 'दान करें'},
   { path : 'room-booking', component : RoomBookingComponent, title: 'दान करें'},
+  { path : '', component : KailashMathComponent, title: 'Kailash Math'},
   { path : '**', component: PageNotFoundComponent, title: '404 Page not found'},
 ];
 

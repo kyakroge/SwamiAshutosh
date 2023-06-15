@@ -20,6 +20,11 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MahamandaleswarCardComponent } from './mahamandaleswar-card/mahamandaleswar-card.component';
 import { MultiItemPerSlideComponent } from './multi-item-per-slide/multi-item-per-slide.component';
+import { DonationComponent } from './donation/donation.component';
+import { PoojaBookingComponent } from './pooja-booking/pooja-booking.component';
+import { LibraryComponent } from './library/library.component';
+import { MagazineMembershipComponent } from './magazine-membership/magazine-membership.component';
+import { RoomBookingComponent } from './room-booking/room-booking.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +41,12 @@ import { MultiItemPerSlideComponent } from './multi-item-per-slide/multi-item-pe
     KailashMathComponent,
     PageNotFoundComponent,
     MahamandaleswarCardComponent,
-    MultiItemPerSlideComponent
+    MultiItemPerSlideComponent,
+    DonationComponent,
+    PoojaBookingComponent,
+    LibraryComponent,
+    MagazineMembershipComponent,
+    RoomBookingComponent
   ],
   imports: [
     BrowserModule,

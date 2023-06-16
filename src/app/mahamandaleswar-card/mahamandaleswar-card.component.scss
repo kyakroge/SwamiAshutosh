@@ -39,11 +39,6 @@ body .footer {
 }
 
 
-.card-footer {
-    padding: 1.5rem;
-    background-color: rgb(224, 251, 134);
-    border-top: 0;
-}
 
 .card-cup,
 .card-img {
@@ -57,7 +52,7 @@ body .footer {
 }
 
 .card-body {
-    background: linear-gradient(#fdbc86, #efff0e);
+    background: linear-gradient(#ffe2ca, #ffb30e);
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1rem 1.25rem;
@@ -93,9 +88,6 @@ body .footer {
     margin-left: 1.5rem;
 }
 
-.card-footer:last-child {
-    border-radius: 0 0 0.8rem 0.8rem;
-}
 
 .card-img-overlay {
     top: 0;

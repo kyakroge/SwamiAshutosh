@@ -1,5 +1,5 @@
 aside {
-    background-color: rgb(223, 223, 41);
+    // background-color: rgb(223, 223, 41);
 }
 
 .accordin-item{
@@ -7,10 +7,12 @@ aside {
     color: #21097d;
 }
 
+
 .accordion-button{
-    // background-color: #ffff90;
+    font-weight: bold;
+    color: brown;
 }
 
 .accordion-body{
-    background-color: rgb(255, 254, 227);
+    background-color: rgb(255, 243, 219);
 }

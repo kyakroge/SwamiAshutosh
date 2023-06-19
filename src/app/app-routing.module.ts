@@ -12,6 +12,7 @@ import { PoojaBookingComponent } from './pooja-booking/pooja-booking.component';
 import { LibraryComponent } from './library/library.component';
 import { MagazineMembershipComponent } from './magazine-membership/magazine-membership.component';
 import { RoomBookingComponent } from './room-booking/room-booking.component';
+import { GaushalaComponent } from './gaushala/gaushala.component';
 
 const routes: Routes = [
   { path : 'math-sampraday', component: MathSampradayComponent, title: 'Math Sampraday'},
@@ -26,7 +27,9 @@ const routes: Routes = [
   { path : 'library', component : LibraryComponent, title: 'दान करें'},
   { path : 'magazine-membership', component : MagazineMembershipComponent, title: 'दान करें'},
   { path : 'room-booking', component : RoomBookingComponent, title: 'दान करें'},
-  { path : '', component : KailashMathComponent, title: 'Kailash Math'},
+  { path : 'room-booking', component : RoomBookingComponent, title: 'दान करें'},
+  { path : 'gaushala', component : GaushalaComponent, title: 'गौशाला'},
+  { path : '', component : KailashMathComponent, title: 'कैलाश मठgit'},
   { path : '**', component: PageNotFoundComponent, title: '404 Page not found'},
 ];
 

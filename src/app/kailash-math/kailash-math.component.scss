@@ -1,6 +1,14 @@
+*{
+  font-family: 'Sahitya';
+}
+
 #Layer_1 {
   position: fixed;
   top: 0;
+}
+
+.whole{
+  background-color: #ffeea8;
 }
 
 .carouselExampleIndicators {
@@ -161,18 +169,6 @@
   // background-color: wheat;
 }
 
-.container-loop {
-  overflow: hidden;
-  display: flex;
-  // height: 200px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.container-loop .card {
-  // height: 30%;
-}
-
 
 
 @keyframes slide {
@@ -215,12 +211,19 @@
 
 
 .left-column .card-mm {
-  background-color: rgb(255, 245, 230);
+  background-image: linear-gradient(to right,  rgb(255, 204, 0), rgb(255, 255, 255), rgb(255, 204, 0), ) !important;
 }
 
 .vip-people .card {
   // background-color: white;
-  border: 0;
+  // border: 0;
+}
+
+.vip-people .card-mm:hover{
+  color: #000000;
+  // opacity: 0.8;
+  background-color: #f3ff9b;
+  border: 1px solid brown;
 }
 
 .vip-people .card img {
@@ -395,15 +398,6 @@
   color: wheat;
 }
 
-// h1,
-// h2,
-// h3,
-// h4,
-// h5,
-// h6 {
-//   margin: 8px 0;
-// }
-
 p {
   margin: 0;
 }
@@ -452,9 +446,6 @@ p {
   flex-direction: column;
   align-items: center;
 }
-
-
-
 
 /* Responsive Styles */
 @media screen and (max-width: 767px) {}
@@ -528,6 +519,10 @@ ul {
 
 .container1 img {
   border-radius: 18px;
+  // padding: 10px;
+}
+
+.content-1, .content-2{
   padding: 10px;
 }
 
@@ -540,28 +535,18 @@ ul {
 
   .content-1 {
     display: flex;
+    padding: 10px;
   }
 
   .content-2 {
     display: flex;
   }
 
-  // .container1 > div {
-  //   // flex-basis: 50%;
-  // }
-
-  // .container > div:nth-child(odd) {
-  //   // order: 1;
-  // }
-
-  // .container1 > div:nth-child(even) {
-  //   // order: 2;
-  // }
 
   .container1 p,
   ul {
-    padding-left: 50px;
-    padding-right: 50px;
+    // padding-left: 50px;
+    // padding-right: 50px;
     text-align: justify;
   }
 }
@@ -583,6 +568,7 @@ ul {
     display: flex;
     flex-direction: column;
     font-size: 1.2rem;
+    padding: 10px;
   }
 
   .content-2 {
@@ -599,6 +585,10 @@ ul {
 
 .art {
   background-color: wheat;
+}
+
+.art img{
+  object-fit: cover;
 }
 
 .doctor-card {
@@ -654,11 +644,17 @@ ul {
   background-color: transparent;
 }
 
-.four-types-group a{
-  border-top: 1px solid rgb(0, 0, 0);
+.four-types-group .card{
+  border-top: 1px dotted rgb(255, 255, 255);
   // border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.5);
   text-decoration: none;
+  cursor: pointer;
+}
+
+.four-types-group .card:hover{
+  border-top: 2px dotted rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .four-types-group h5{
@@ -697,8 +693,8 @@ ul {
   opacity: 1;
   padding: 30px;
   transition: 0.2s ease-in;
-  border-left: 5px solid rgb(255, 255, 255);
-  border-right: 5px solid rgb(255, 251, 28);
+  border-left: 2px solid rgb(255, 255, 255);
+  border-right: 2px solid rgb(255, 251, 28);
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
 }
@@ -706,4 +702,41 @@ ul {
 
 .card-title:hover{
   opacity: 1;
+}
+
+
+
+// 
+
+.row-img-grid {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column-img-grid {
+  -ms-flex: 100%; /* IE10 */
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 4px;
+}
+
+.column-img-grid img {
+  // margin-top: 8px;
+  margin-left: 8px;
+  padding: 5px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column-img-grid {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
 }

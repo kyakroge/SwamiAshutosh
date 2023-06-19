@@ -30,6 +30,11 @@ body .footer {
     border-radius: 0.8rem;
 }
 
+.card-wrap:hover{
+    border: 1px solid brown;
+    cursor: pointer;
+}
+
 
 .card-smooth-caption, .card-img-overlay {
     position: absolute;
@@ -56,6 +61,13 @@ body .footer {
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1rem 1.25rem;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+
+.card-body:hover{
+    background-color: red;
+    color: #000;
 }
 
 .card-title {
@@ -65,6 +77,12 @@ body .footer {
     font-family: Roboto;
     font-weight: 500;
     font-style: normal;
+    color: red;
+    text-shadow: 0px 0px 1px white;
+}
+
+.card-title:hover{
+    color: brown;
 }
 
 .badge-warning2,
@@ -213,7 +231,7 @@ body .footer {
 
 .card-avatar.avatar-border.mt-n5,
 .card-avatar.mr-44 {
-    border: 1.5px solid #ff7402;
+    border: 2px solid #ff2002;
     background: linear-gradient(#3c4349, #252a2d);
     position: relative;
     // background-image: url(../../assets/imgs/swami-ashu/abhinav-rashtra.jpeg);
@@ -242,4 +260,8 @@ body .footer {
     background-image: linear-gradient(to right,  rgb(255, 204, 0), rgb(255, 255, 255), rgb(255, 204, 0), ) !important;
     background-size: cover;
     background-position: 50% 50%;
+}
+
+.card-cup.bg-primary:hover{
+    background-image: linear-gradient(to right,  rgb(255, 204, 0), rgb(255, 145, 97), rgb(255, 204, 0), );
 }

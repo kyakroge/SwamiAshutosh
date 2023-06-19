@@ -25,6 +25,7 @@ import { PoojaBookingComponent } from './pooja-booking/pooja-booking.component';
 import { LibraryComponent } from './library/library.component';
 import { MagazineMembershipComponent } from './magazine-membership/magazine-membership.component';
 import { RoomBookingComponent } from './room-booking/room-booking.component';
+import { GaushalaComponent } from './gaushala/gaushala.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { RoomBookingComponent } from './room-booking/room-booking.component';
     PoojaBookingComponent,
     LibraryComponent,
     MagazineMembershipComponent,
-    RoomBookingComponent
+    RoomBookingComponent,
+    GaushalaComponent
   ],
   imports: [
     BrowserModule,

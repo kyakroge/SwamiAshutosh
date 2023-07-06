@@ -51,7 +51,7 @@ export class AppComponent implements OnInit {
   currentYear: any = 2023;
   faMusic = faMusic;
 
-  isBhakti: boolean = true;
+  isBhakti: boolean = false;
   isBhakt: string = '';
   updateBhakt() {
     if (this.isBhakti == true) {
@@ -62,7 +62,7 @@ export class AppComponent implements OnInit {
       this.isBhakt = 'Bhakt'
     }
   }
-  isDisabled: boolean = true;
+  isDisabled: boolean = false;
   getTrue() {
     this.isBhakti = true;
   }

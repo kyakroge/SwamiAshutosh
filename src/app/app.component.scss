@@ -232,3 +232,33 @@ fa-icon {
   .mat-mdc-slide-toggle{
     // background: #cf3d3d;
 }
+
+.want-music{
+  position: fixed;
+  bottom: 25px;
+  right: 80px;
+  animation: flash 2s 2;
+  background-color: rgba(255, 255, 255, 0.718);
+  // text-shadow: 2px 2px black;
+  text-shadow: -2px -2px 5px rgb(255, 255, 255);
+  color: brown;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  visibility: hidden;
+}
+
+@keyframes flash {
+  0%{
+    font-size: medium;
+    visibility: visible;
+  }
+  50%{
+    font-size: large;
+    visibility: visible;
+  }
+  100%{
+    font-size: medium;
+    visibility: visible;
+  }
+}

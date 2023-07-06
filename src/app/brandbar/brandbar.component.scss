@@ -8,15 +8,35 @@
     top: 0;
     // padding-bottom: 30px;
 }
+@media (max-width: 678px) {
+    .brand-image{
+        width: 270px;
+    }
+}
 @media (max-width: 576px) {
     .wrap{
         padding-top: 0;
     }
     .brand-image{
-        width: 300px;
+        width: 270px;
     }
     .wrap{
         position: sticky;
         top: 0;
+    }
+}
+@media (max-width: 480px) {
+    .brand-image{
+        width: 250px;
+    }
+}
+@media (max-width: 400px) {
+    .brand-image{
+        width: 220px;
+    }
+}
+@media (min-width: 700px) {
+    .brand-image{
+        height: 100px;
     }
 }

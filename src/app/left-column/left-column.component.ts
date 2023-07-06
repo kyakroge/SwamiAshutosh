@@ -13,6 +13,23 @@ interface MahaMandaleswars {
   styleUrls: ['./left-column.component.scss']
 })
 export class LeftColumnComponent {
+  books:String[]=[
+    'https://ik.imagekit.io/kailash/swami-ashu/achievements/achieve-2.jpg?tr=q-1,pr-true',
+    'https://ik.imagekit.io/kailash/swami-ashu/achievements/achieve-3.jpg?tr=q-1,pr-true',
+    'https://ik.imagekit.io/kailash/swami-ashu/achievements/achieve-4.jpg?tr=q-1,pr-true',
+    'https://ik.imagekit.io/kailash/swami-ashu/achievements/achieve-5.jpg?tr=q-1,pr-true',
+    'https://ik.imagekit.io/kailash/swami-ashu/achievements/achieve-6.jpg?tr=q-1,pr-true',
+    'https://ik.imagekit.io/kailash/swami-ashu/achievements/achieve-7.jpg?tr=q-1,pr-true',
+    'https://ik.imagekit.io/kailash/swami-ashu/achievements/achieve-8.jpg?tr=q-1,pr-true',
+    'https://ik.imagekit.io/kailash/swami-ashu/achievements/achieve-9.jpg?tr=q-1,pr-true',
+    'https://ik.imagekit.io/kailash/swami-ashu/achievements/achieve-10.jpg?tr=q-1,pr-true',
+    'https://ik.imagekit.io/kailash/swami-ashu/achievements/achieve-11.jpg?tr=q-1,pr-true',
+    'https://ik.imagekit.io/kailash/swami-ashu/achievements/achieve-12.jpg?tr=q-1,pr-true',
+    'https://ik.imagekit.io/kailash/swami-ashu/achievements/achieve-13.jpg?tr=q-1,pr-true',
+    'https://ik.imagekit.io/kailash/swami-ashu/achievements/achieve-14.jpg?tr=q-1,pr-true',
+    'https://ik.imagekit.io/kailash/swami-ashu/achievements/achieve-15.jpg?tr=q-1,pr-true',
+    'https://ik.imagekit.io/kailash/swami-ashu/achievements/achieve-16.jpg?tr=q-1,pr-true',
+  ];
   title = 'Swami Ashutoshanand';
   currentYear: any = 2023;
   data1: any = 'Hello, 1!' ;

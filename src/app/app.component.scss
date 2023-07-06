@@ -9,12 +9,12 @@
 }
 
 .brand-nav-gap{
-  height: 130px;
+  // height: 130px;
 }
 
 @media (max-width: 576px) {
   .brand-nav-gap{
-      height: 70px;
+      // height: 65px;
   }
 }
 
@@ -229,9 +229,6 @@ fa-icon {
     }
   }
 
-  .mat-mdc-slide-toggle{
-    // background: #cf3d3d;
-}
 
 .want-music{
   position: fixed;

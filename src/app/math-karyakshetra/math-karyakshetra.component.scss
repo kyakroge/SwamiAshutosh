@@ -188,3 +188,11 @@ img {
   background-color: rgb(255, 198, 92);
   color: brown;
 }
+
+
+@media screen and (min-width: 991px) {
+
+  .whole{
+      margin-top: 40px;
+}
+}

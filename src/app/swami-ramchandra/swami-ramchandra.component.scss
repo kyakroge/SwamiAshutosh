@@ -238,3 +238,11 @@ blockquote p::after {
   display: flex;
   flex-direction: column;
 }
+
+
+@media screen and (min-width: 991px) {
+
+  .whole{
+      margin-top: 40px;
+}
+}

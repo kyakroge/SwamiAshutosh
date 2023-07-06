@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 49 49.03">
+  <defs>
+    <linearGradient id="b" data-name="Fade To Center Red" x1="0" y1="24.52" x2="49" y2="24.52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ed1f24"/>
+      <stop offset=".5" stop-color="#ed1f24" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ed1f24"/>
+    </linearGradient>
+  </defs>
+  <path d="m30,0h0S0,0,0,0h0s0,16.89,0,49h49-1s-5.95.44-11-2c-1.16-.56-2.69-1.32-4-3-.35-.45-1.77-2.36-2-5" style="fill: url(#b);"/>
+</svg>

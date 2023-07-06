@@ -28,6 +28,7 @@ import { SwamijiMediaComponent } from './swamiji-media/swamiji-media.component';
 import { GurukulMediaComponent } from './gurukul-media/gurukul-media.component';
 import { SwamiRamchandraComponent } from './swami-ramchandra/swami-ramchandra.component';
 import { SwamiAshuComponent } from './swami-ashu/swami-ashu.component';
+import { BooksComponent } from './books/books.component';
 
 const routes: Routes = [
   { path : 'math-sampraday', component: MathSampradayComponent, title: 'Math Sampraday'},
@@ -58,6 +59,7 @@ const routes: Routes = [
   { path : 'gurukul-media', component : GurukulMediaComponent, title: 'गुरुकुल'},
   { path : 'ramchandra-giri', component : SwamiRamchandraComponent, title: 'स्वामी रामचंद्र गिरी जी महाराज'},
   { path : 'swami-ashu', component : SwamiAshuComponent, title: 'स्वामी आशुतोषानंद गिरी जी महाराज'},
+  { path : 'books', component : BooksComponent, title: 'रचनायें'},
   { path : '', component : KailashMathComponent, title: 'कैलाश मठ'},
   { path : '**', component: PageNotFoundComponent, title: '404 Page not found'},
 ];

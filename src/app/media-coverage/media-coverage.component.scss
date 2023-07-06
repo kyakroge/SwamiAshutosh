@@ -1,5 +1,5 @@
 .whole {
-  background-image: url(../../assets/imgs/backgrounds/liquid-cheese.svg);
+  background: linear-gradient(yellow, orangered);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,4 +50,12 @@ button:active {
   color: black;
   background: linear-gradient(orangered, yellow), white;
   opacity: 1;
+}
+
+
+@media screen and (min-width: 991px) {
+
+  .whole{
+      margin-top: 40px;
+}
 }

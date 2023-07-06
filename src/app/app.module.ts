@@ -46,6 +46,7 @@ import { MonksMediaComponent } from './monks-media/monks-media.component';
 import { SwamiAshuComponent } from './swami-ashu/swami-ashu.component';
 import { SwamiRamchandraComponent } from './swami-ramchandra/swami-ramchandra.component';
 import { AchievementsComponent } from './achievements/achievements.component';
+import { BooksComponent } from './books/books.component';
 
 @NgModule({
   declarations: [
@@ -88,6 +89,7 @@ import { AchievementsComponent } from './achievements/achievements.component';
     SwamiAshuComponent,
     SwamiRamchandraComponent,
     AchievementsComponent,
+    BooksComponent,
   ],
   imports: [
     BrowserModule,

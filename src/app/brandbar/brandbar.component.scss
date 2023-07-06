@@ -3,8 +3,20 @@
     // margin: 0px;
 }
 
+.wrap{
+    position: sticky;
+    top: 0;
+    // padding-bottom: 30px;
+}
 @media (max-width: 576px) {
+    .wrap{
+        padding-top: 0;
+    }
     .brand-image{
         width: 300px;
+    }
+    .wrap{
+        position: sticky;
+        top: 0;
     }
 }

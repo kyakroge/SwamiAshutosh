@@ -1,0 +1,191 @@
+/* Right column */
+.right-column {
+    float: left;
+    width: 30%;
+    // padding-left: 20px;
+}
+
+.right-column .card {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.left-column {
+    float: left;
+    width: 70%;
+}
+
+.left-column img:hover {
+    opacity: 0.9;
+    filter: contrast(1.2);
+    filter: saturate(1.8);
+    border: 1px solid brown;
+}
+
+.facebook-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.facebook-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    // padding: 20px;
+}
+
+.fakeimg img {
+    width: 100%;
+}
+
+.right-column {
+    float: left;
+    width: 30%;
+    // padding-left: 20px;
+}
+
+.sanatan-sanskriti p {
+    font-family: 'Sahitya';
+}
+
+.heading {
+    text-align: center;
+    background-color: rgb(255, 181, 84);
+    padding: 10px 30px;
+    color: rgb(172, 0, 0);
+    font-family: 'Kalam', cursive;
+}
+
+.kailash-math-art {
+    background-color: rgb(253, 217, 152);
+}
+
+.right-column .card {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.text-left {
+    float: left;
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    // height: 100%;
+    float: right;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+
+    .row.content {
+        height: auto;
+    }
+}
+
+/* Common styles for paragraphs and images */
+p {
+    margin: 0;
+    padding: 10px;
+}
+
+img {
+    // max-width: 100%;
+    // height: 100%;
+    object-fit: contain;
+
+}
+
+.container1 p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.container1 img {
+    // border-radius: 18px;
+    // width: 100%;
+    margin: 10px;
+    object-fit: contain;
+}
+
+/* Styles for laptop screens */
+@media (min-width: 768px) {
+    .container1 {
+        display: block;
+        flex-wrap: nowrap;
+    }
+
+    .content-1 {
+        display: flex;
+    }
+
+    .content-2 {
+        display: flex;
+    }
+
+
+    .container1 p {
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: justify;
+    }
+}
+
+/* Styles for phone screens or smaller */
+@media (max-width: 768px) {
+    .container1 img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .content-1 {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.2rem;
+    }
+
+    .content-2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .left-column,
+    .right-column {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+a {
+    margin: 10px;
+}
+
+
+@media screen and (min-width: 991px) {
+
+    .whole{
+        margin-top: 40px;
+  }
+  }

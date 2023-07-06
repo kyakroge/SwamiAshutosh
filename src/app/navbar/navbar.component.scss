@@ -1,6 +1,7 @@
 .navbar{
     background-color: orangered;
     color: white;
+    
 }
 
 .nav-item{
@@ -47,3 +48,29 @@
     color: #000000;
     // text-shadow: 0 1px 0 #528ecc;
 }
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 991px) {
+
+    .navbar{
+        // width: 80px;
+        background-color: transparent;
+    }
+    .navbar-toggler{
+        background-color: yellow;
+        border: 1px solid brown;
+    }
+    .navbar-nav{
+        background-color: rgb(187, 0, 0);
+        border-radius: 20px;
+    }
+  }
+@media screen and (min-width: 990px) {
+
+    .navbar{
+        // width: 80px;
+        position: absolute;
+        top: 120px;
+    }
+  }

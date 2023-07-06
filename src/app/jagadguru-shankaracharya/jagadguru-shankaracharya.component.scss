@@ -1,6 +1,3 @@
-.whole{
-  background-image: url(../../assets/imgs/backgrounds/liquid-cheese.svg); background-position: center; background-repeat: no-repeat; background-size: cover;
-}
 
 .left-column {
   float: left;
@@ -281,4 +278,12 @@
     height: 30%;
     object-fit: cover;
   }
+}
+
+
+@media screen and (min-width: 991px) {
+
+  .whole{
+      margin-top: 40px;
+}
 }

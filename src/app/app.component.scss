@@ -8,6 +8,16 @@
     display: table;
 }
 
+.brand-nav-gap{
+  height: 130px;
+}
+
+@media (max-width: 576px) {
+  .brand-nav-gap{
+      height: 70px;
+  }
+}
+
 .carousel img {
     object-fit: cover;
 }

@@ -1,5 +1,6 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {HttpClientModule} from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -26,6 +27,25 @@ import { LibraryComponent } from './library/library.component';
 import { MagazineMembershipComponent } from './magazine-membership/magazine-membership.component';
 import { RoomBookingComponent } from './room-booking/room-booking.component';
 import { GaushalaComponent } from './gaushala/gaushala.component';
+import { GurukulComponent } from './gurukul/gurukul.component';
+import { NirmanSanghComponent } from './nirman-sangh/nirman-sangh.component';
+import { PhotoPageComponent } from './photo-page/photo-page.component';
+import { LeftColumnComponent } from './left-column/left-column.component';
+import { PostsComponent } from './posts/posts.component';
+import { PostCardComponent } from './post-card/post-card.component';
+import { ArtiStutiComponent } from './arti-stuti/arti-stuti.component';
+import { FooterComponent } from './footer/footer.component';
+import { PrintMediaComponent } from './print-media/print-media.component';
+import { MathMediaComponent } from './math-media/math-media.component';
+import { SwamijiMediaComponent } from './swamiji-media/swamiji-media.component';
+import { GurukulMediaComponent } from './gurukul-media/gurukul-media.component';
+import { GaushalaMediaComponent } from './gaushala-media/gaushala-media.component';
+import { SocialServicesMediaComponent } from './social-services-media/social-services-media.component';
+import { KathaMediaComponent } from './katha-media/katha-media.component';
+import { MonksMediaComponent } from './monks-media/monks-media.component';
+import { SwamiAshuComponent } from './swami-ashu/swami-ashu.component';
+import { SwamiRamchandraComponent } from './swami-ramchandra/swami-ramchandra.component';
+import { AchievementsComponent } from './achievements/achievements.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +68,26 @@ import { GaushalaComponent } from './gaushala/gaushala.component';
     LibraryComponent,
     MagazineMembershipComponent,
     RoomBookingComponent,
-    GaushalaComponent
+    GaushalaComponent,
+    GurukulComponent,
+    NirmanSanghComponent,
+    PhotoPageComponent,
+    LeftColumnComponent,
+    PostsComponent,
+    PostCardComponent,
+    ArtiStutiComponent,
+    FooterComponent,
+    PrintMediaComponent,
+    MathMediaComponent,
+    SwamijiMediaComponent,
+    GurukulMediaComponent,
+    GaushalaMediaComponent,
+    SocialServicesMediaComponent,
+    KathaMediaComponent,
+    MonksMediaComponent,
+    SwamiAshuComponent,
+    SwamiRamchandraComponent,
+    AchievementsComponent,
   ],
   imports: [
     BrowserModule,
@@ -56,9 +95,11 @@ import { GaushalaComponent } from './gaushala/gaushala.component';
     BrowserAnimationsModule,
     MatSlideToggleModule,
     FormsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }

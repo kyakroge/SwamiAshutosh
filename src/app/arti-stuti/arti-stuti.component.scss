@@ -1,0 +1,82 @@
+.wrap {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  height: 100%;
+  text-align: center;
+  color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  font-family: 'Kailash';
+  font-size: 1.2rem;
+}
+
+.left-column {
+  float: left;
+}
+
+/* Right column */
+.right-column {
+  float: right;
+  // width: 40%;
+  // padding-left: 20px;
+}
+
+.right-column .card {
+  // margin-top: 10px;
+  // margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .right-column {
+    width: 100%;
+  }
+}
+
+.heading {
+  background-color: brown;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#stuti,
+#aarti {
+  background-color: #fdceb0;
+  opacity: 0.8;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #f7f6e5 5px), repeating-linear-gradient(#d0ff0055, #ff8400);
+
+}
+
+h4{
+  // text-align: center;
+  animation: text-flash 1s 2;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: blue;
+}
+
+
+@keyframes text-flash {
+  from{
+      background-color: #ff8400;
+      color: white;
+  }
+
+  to{
+      background-color: #fdceb0;
+  }
+}

@@ -29,7 +29,7 @@ export class KailashMathComponent {
 
     
     mahaMandaleswars: MahaMandaleswars[]=[
-      {item: 'item1', name:'महामंडलेश्वर स्वामी कैलाश पर्वत जी महाराज', dob:'87', imgUrl: 'https://ik.imagekit.io/kailash/maha-mandaleswars/kailash-parvat?updatedAt=1686760095607'},
+      {item: 'item1', name:'महामंडलेश्वर स्वामी कैलाश पर्वत जी महाराज', dob:'87', imgUrl: 'https://ik.imagekit.io/kailash/maha-mandaleswars/IMG-20230517-WA0000.jpg?updatedAt=1688385701008'},
       {item: 'item2', name:'महामंडलेश्वर स्वामी सत्यानंद गिरि जी महाराज', dob:'77', imgUrl: 'https://ik.imagekit.io/kailash/telegram/tr:w-200,f-jpg,pr-true/IMG-20230517-WA0008.jpg'},
       {item: 'item3', name:'महामंडलेश्वर स्वामी पूर्णानन्द गिरि जी महाराज', dob:'84', imgUrl: 'https://ik.imagekit.io/kailash/maha-mandaleswars/poornanand?updatedAt=1686760159961'},
       {item: 'item4', name:'महामंडलेश्वर स्वामी कृपानन्द जी महाराज', dob:'83', imgUrl: 'https://ik.imagekit.io/kailash/telegram/tr:w-200,f-jpg,pr-true/IMG-20230517-WA0008.jpg'},

@@ -1,0 +1,20 @@
+.whole {
+    background:linear-gradient(yellow, orangered);
+    padding: 20px;
+  }
+  
+  .btn:focus,
+  .btn:active,
+  button:focus,
+  button:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  img{
+    margin: 8px;
+  }
+  
+  #image-gallery .modal-footer {
+    display: block;
+  }

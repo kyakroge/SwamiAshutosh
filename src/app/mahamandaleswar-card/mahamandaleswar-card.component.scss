@@ -24,14 +24,14 @@ body .footer {
     flex-direction: column;
     // width: 360px;
     word-wrap: break-word;
-    background-color: #fff;
+    background-color: #ff2020;
     background-clip: border-box;
-    border: 1px solid #00000020;
+    border: 3px solid #00000020;
     border-radius: 0.8rem;
 }
 
 .card-wrap:hover{
-    border: 1px solid brown;
+    border: 3px solid rgb(254, 254, 254);
     cursor: pointer;
 }
 
@@ -57,7 +57,7 @@ body .footer {
 }
 
 .card-body {
-    background: linear-gradient(#ffe2ca, #ffb30e);
+    background: linear-gradient(#ffe2ca, #fff644);
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1rem 1.25rem;
@@ -77,7 +77,7 @@ body .footer {
     font-family: Roboto;
     font-weight: 500;
     font-style: normal;
-    color: red;
+    color: rgb(183, 0, 0);
     text-shadow: 0px 0px 1px white;
 }
 

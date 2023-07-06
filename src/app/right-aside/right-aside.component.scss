@@ -1,5 +1,6 @@
 aside {
-    // background-color: rgb(223, 223, 41);
+    margin: 0;
+    padding: 0;
 }
 
 .accordin-item{
@@ -11,8 +12,37 @@ aside {
 .accordion-button{
     font-weight: bold;
     color: brown;
+    font-size: large;
 }
 
 .accordion-body{
     background-color: rgb(255, 243, 219);
+    font-size: larger;
+}
+
+.sadasyata-button{
+    animation: opacity-change 2s infinite;
+}
+
+@keyframes opacity-change {
+    from{
+        // opacity: 0.5;
+        border: 1px solid brown;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+    }
+    to{
+        background-color: rgb(255, 238, 0);
+        color: rgb(0, 0, 0);
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 10px;
+    }
+}
+
+.radial-pattern{
+  background-color: #fffc54;
+  opacity: 0.8;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #f7f6e5 5px), repeating-linear-gradient(#f9ff4655, #ffd4a5);
+
 }
